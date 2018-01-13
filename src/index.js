@@ -22,7 +22,7 @@ class Calculate extends React.Component{
       bsSize='lg'
       key={val}
       onClick={()=>this.btnClick(val)}>
-<p className={styles.btnFont}>{val}</p></Button>});
+      <p className={styles.btnFont}>{val}</p></Button>});
   }
 
   btnClick(val){
