@@ -21,7 +21,8 @@ class Calculate extends React.Component{
     ].map((val)=>{return 	<Button className={styles.btnStyle}
       bsSize='lg'
       key={val}
-      onClick={()=>this.btnClick(val)}><p className={styles.btnFont}>{val}</p></Button>});
+      onClick={()=>this.btnClick(val)}>
+      <p className={styles.btnFont}>{val}</p></Button>});
   }
 
   btnClick(val){
