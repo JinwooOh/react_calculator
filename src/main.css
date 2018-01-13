@@ -1,0 +1,34 @@
+:local(.btnStyle){
+  float: left;
+  background-color: black;
+  color: black;
+  border: 1px solid;
+  border-color: green;
+  width: 25%;
+}
+:local(.btnStyle:hover){
+  background-color: green; /* Green */
+  color: yellow;
+}
+
+:local(.displayFont){
+  font-family: Georgia;
+  font-size: 1.5em;
+  text-align: right;
+  padding-top: 3px;
+  color: white;
+  padding-right: 5%;
+}
+
+:local(.displayBox){
+  text-align: right;
+  margin-top: 30px;
+  padding-top: 12px;
+  width: 25%;
+  background-color: black;
+
+}
+
+:local(.btnFont){
+  color: white;
+}
