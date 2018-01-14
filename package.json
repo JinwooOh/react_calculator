@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack",
     "start": "webpack-dev-server --open",
-    "postinstall": "webpack -p",
+    "postinstall": "cd client && npm install",
     "start": "node server.js"
   },
   "author": "",
