@@ -7,7 +7,7 @@
     "dev": "webpack",
     "start": "webpack-dev-server --open",
     "postinstall": "webpack -p",
-    "start" "node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
