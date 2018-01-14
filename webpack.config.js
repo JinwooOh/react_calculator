@@ -12,14 +12,8 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'babel-loader',
-                    query: {
-                        presets: ["es2015"]
-                    }
-                }
+        test: /.js$/,
+        loader: 'babel-loader'
       },{
         test: /\.css$/,
         loader: 'style-loader'

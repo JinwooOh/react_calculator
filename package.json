@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "node server.js",
-    "postinstall": "webpack -p"
+    "postinstall": "webpack -p",
+    "devserver": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
